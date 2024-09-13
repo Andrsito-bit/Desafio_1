@@ -1,0 +1,58 @@
+// Se espera que el Algoritmo cuente con esta estructura.
+
+
+      Inicio
+         |
+         v
+   Inicializar sistema
+  (Pantalla, pines, serial)
+         |
+         v
+ Esperar botón inicio
+   (Botón presionado?)
+     /        \
+   No          Sí
+   |            |
+   |        Comenzar
+   |      adquisición de
+   |           datos
+   |            |
+   |            v
+   |   Leer señal analógica
+   |            |
+   |      Almacenar valor
+   |            |
+   |            v
+   |   Almacenar datos
+   |            |
+   |            v
+   |   Botón pausa presionado?
+   |            |
+   |           No ---------------+
+   |            |                |
+   |           Sí                |
+   |            |                |
+   |     Pausar adquisición       |
+   |            |                 |
+   |   Calcular frecuencia (Hz)   |
+   |            |                 |
+   |            |                 |
+   |            |                 |
+   |   Calcular amplitud (V)      |
+   |   (Máximo - Mínimo)          |
+   |            |                 |
+   |   Identificar forma de onda  |
+   |   (Senoidal, triangular,     |
+   |   cuadrada, Desconocida.)    |
+   |            |                 |
+   |   Mostrar resultados         |
+   |   (frecuencia, amplitud,     |
+   |   tipo de onda)              |
+   |            |                 |
+   +------------+                 |
+         |                        |
+         +------------------------+
+         |
+         v
+   Esperar reinicio
+   (Nuevo ciclo)
