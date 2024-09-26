@@ -103,7 +103,7 @@ void loop()
 // Función para mostrar los resultados en la pantalla LCD
 void mostrarResultadosEnLCD() {
   // Suponemos una tasa de muestreo de 100 muestras por segundo (100 Hz)
-  float tasaMuestreo = 100.0;  // Puedes ajustar según la frecuencia de muestreo real
+  float tasaMuestreo = 100.0;  
 
   // Identificamos la forma de la onda primero
   String formaOnda = identificarFormaDeOnda(datos, indice);
